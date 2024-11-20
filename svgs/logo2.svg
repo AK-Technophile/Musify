@@ -1,0 +1,14 @@
+<svg width="150" height="60" xmlns="http://www.w3.org/2000/svg">
+  <!-- Circular background for M -->
+  <circle cx="36" cy="30" r="19" fill="#1db954"/>
+
+  <!-- Stylish M logo -->
+   <text x="16" y="42" font-family="'Pacifico', cursive" font-size="36" fill="white">
+    M
+  </text>
+
+  <!-- Musify text -->
+  <!-- <text x="62" y="38" font-family="'Pacifico', cursive" font-size="18" fill="#1db954" font-weight="bold">
+    Musify
+  </text> -->
+</svg>
