@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musify - Web Player : Music for everyone</title>
+    <link rel="shortcut icon" type="x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+
+<body>
+
+    <div class="upbar flex">
+        <div class="logo">
+            <span class="chupa">
+                <img src="logo.svg" alt="main_logo">
+            </span>
+            <span class="mobile hide">
+                <img src="logo2.svg" alt="main_logo">
+            </span>
+        </div>
+
+        <div class="task flex">
+            <img class="invert home" src="home.svg" alt="home">
+            <div class="searchbar"><input class="search font bg-grey" data-encore-id="formInput"
+                    data-testid="search-input" type="search"
+                    placeholder=" &#x1F50E;&#xFE0E; &nbsp; What do you want to play?" value="" tabindex="0">
+            </div>
+        </div>
+
+        <div class="login">
+            <button class="log font">Log In</button>
+        </div>
+    </div>
+
+    <div class="hamcontain">
+        <div class="ham">☰</div>
+        <div class="liked1 font flex">
+            <div class="heart1">❤︎</div>
+        </div>
+    </div>
+
+    <div class="keep flex">
+
+        <div class="left left01 bg-grey flex" id="left">
+
+            <div class="flex libflex">
+                <div class="library">
+                    <img class="invert lib" src="lib.svg" alt="lib">
+                </div>
+                <div class="libtxt font">
+                    Your Musify
+                </div>
+            </div>
+
+
+            <div class="songlist">
+                <ul>
+                    <li>
+                        <div class="musiclogo">♬</div>
+                        <div class="songname font"></div>
+                        <div class="playul">▶</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="right bg-grey">
+
+            <div class="youritem">
+                <div class="yi gradiant">Your Items</div>
+
+                <div class="yitems flex">
+
+                    <div class="liked font flex">
+                        <div class="heart">❤︎</div>
+                        <div class="likedtxt">Liked songs</div>
+                    </div>
+
+                    <div class="addpl">
+                        <div class="addd">+</div>
+                        <div class="likedtxt okok">Add</div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="blkline"></div>
+
+            <div class="stb font gradiant">
+                Start browsing
+            </div>
+
+            <div class="cards">
+
+                <!-- <div class="flex02"> -->
+
+                <div data-folder="music" class="card card00 usecard">
+                    <h2 class="font ctxt">Music</h2>
+                    <img class="imgsize" src="assets/music.jpeg" alt="">
+                </div>
+
+                <div data-folder="eng" class="card1 card00 usecard">
+                    <h2 class="font ctxt">English</h2>
+                    <img class="imgsize" src="assets/img2.jpeg" alt="">
+                </div>
+
+                <div data-folder="hin" class="card2 card00 usecard">
+                    <h2 class="font ctxt">Hindi</h2>
+                    <img class="imgsize" src="assets/img3.jpeg" alt="">
+                </div>
+
+                <div data-folder="trendy" class="card3 card00 usecard">
+                    <h2 class="font ctxt">Trending</h2>
+                    <img class="imgsize" src="assets/img4.jpeg" alt="">
+                </div>
+
+                <!-- <div class="card4 card00">
+                    <h2 class="font ctxt">Popular</h2>
+                    <img class="imgsize" src="assets/img5.jpg" alt="">
+                </div> -->
+                <!-- </div> -->
+
+            </div>
+
+            <div class="part2">
+                <div class="p2h font gradiant">Popular playlists</div>
+            </div>
+
+            <div class="cardcontainer">
+
+                <!-- <div class="cont">
+                    <div class="playbtnin">
+                        <span class="invert">▶</span>
+                    </div>
+                    <img class="imgsize2" src="assets/dm2.jpeg" alt="">
+                    <p class="font">Eternxlkz, BLESSED MANE, akiaura and more</p>
+                </div> -->
+
+                <!-- <div class="cont">
+                    <div class="playbtnin">
+                        <span class="invert">▶</span>
+                    </div>
+                    <img class="imgsize2" src="assets/dm1.jpeg" alt="">
+                    <p class="font">Lewis Hanton, bbygirl, you lost and more</p>
+                </div> -->
+
+            </div>
+
+            <footer class="end font gradiant">
+                CREATOR : Amogh.kini
+            </footer>
+
+        </div>
+    </div>
+
+    <div class="playbar">
+
+
+        <div class="songinfo font" id="sinfo">unknown</div>
+        <div class="midp">
+
+            <div class="flex1">
+                <div class="prev font" id="prevs">
+                    |◀
+                </div>
+                <div class="playb invert" id="play">
+                    ▶
+                </div>
+                <div class="next font" id="nexts">
+                    ▶|
+                </div>
+            </div>
+
+        </div>
+        <div class="songtime font" id="songtime">00:00 / 00:00</div>
+
+        <div class="bottompb">
+            <div class="seekbar">
+                <div class="circlesb">
+                    <div class="cir"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

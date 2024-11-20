@@ -1,0 +1,156 @@
+/* for laptops */
+
+@media screen and (min-width: 780px) {
+    .left {
+        width: 12vw;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 10px;
+        margin-left: 2px;
+        position: fixed;
+        left: 6px;
+        top: 80px;
+        height: 90vh;
+        /* display: inherit; */
+    }
+
+    .right {
+        width: 88vw;
+        border-radius: 10px;
+        margin-left: 13vw;
+    }
+}
+
+@media screen and (max-width: 1342px) {
+
+    .left {
+        width: 23vw;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 10px;
+        margin-left: 2px;
+        position: fixed;
+        left: 6px;
+        top: 80px;
+        height: 90vh;
+        /* display: inherit; */
+    }
+
+    .right {
+        width: 78vw;
+        border-radius: 10px;
+        margin-left: 25vw;
+        margin-top: 2px;
+    }
+
+}
+
+
+/* For mobiles ! */
+
+@media screen and (max-width: 500px) {
+    .left01 {
+        width: 40vw;
+        align-items: center;
+        flex-direction: column;
+        /* border-radius: 10px; */
+        margin-left: 2px;
+        position: fixed;
+        left: 6px;
+        top: 64px;
+        height: 90vh;
+        /* display:none; */
+        opacity: 0;
+        background-color: black;
+        /* transition: all 2s ease-out; */
+        transition: opacity 1s ease, transform 1s ease;
+        z-index: 2;
+    }
+
+    .right {
+        width: 90vw;
+        border-radius: 10px;
+        margin-left: 12vw;
+        margin-top: 2px;
+        /* margin-left: 10px; */
+    }
+
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        margin-bottom: 15px;
+    }
+
+    .card00 {
+        height: 150px;
+        width: 280px;
+        margin-left: -6px;
+    }
+
+    .songtime {
+        font-size: 14px;
+    }
+
+    .cardcontainer {
+        justify-content: center;
+        margin-left: -10px;
+        gap: 5px;
+        overflow-y: scroll;
+        flex-wrap: nowrap;
+    }
+
+    .cont {
+        width: 180px;
+    }
+
+    .imgsize2 {
+        width: 160px;
+    }
+
+    .chupa{
+        display: none;
+    }
+
+    .hide{
+        display: contents;
+    }
+
+    .task {
+        left: 23vw;
+    }
+
+    .hamcontain{
+        position: fixed;
+        left: 14px;
+        top: 90px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        z-index: 3;
+    }
+    
+    .ham{
+        font-size: 25px;
+        cursor: pointer;
+    }
+
+    .liked1 {
+        gap: 10px;
+        align-items: center;
+        cursor: pointer;
+        margin-left: -8px;
+        cursor: pointer;
+    }
+    
+    .heart1 {
+        /* background-color: mediumslateblue; */
+        background: linear-gradient(to bottom right, mediumslateblue, rgb(192, 191, 191));
+        padding: 8px 8px;
+        border-radius: 8px;
+    }
+
+
+}

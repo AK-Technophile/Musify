@@ -1,0 +1,96 @@
+.flex{
+    display: flex;
+}
+
+.bg-grey{
+    background-color: rgb(29, 27, 27);
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.font{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.imgsize{
+    width: 110px;
+    position: absolute;
+    bottom: 0px;
+    right: -15px;
+    transform: rotate(20deg);
+}
+
+.imgsize2{
+    width: 200px;
+    border-radius: 16px;
+}
+
+/* Style for Webkit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+    width: 8px;           /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: #2e2e2e;  /* Dark background for scrollbar track */
+    border-radius: 10px;  /* Optional rounded track */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #4caf50; /* Primary scrollbar color */
+    border-radius: 10px;       /* Rounded scrollbar thumb */
+    border: 2px solid #2e2e2e; /* Creates space around the thumb */
+}
+
+/* Apply class to HTML element */
+body {
+    overflow-y: scroll; /* Ensure scroll bar visibility */
+}
+
+
+.prev{
+    color: grey;
+    font-weight: 1000;
+    font-size: 16px;
+    cursor: pointer;
+}
+.playb{
+    background-color: black;
+    padding: 6px 10px 6px 10px;
+    /* padding: 10px; */
+    border-radius: 100%;
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -3px;
+}
+.next{
+    color: grey;
+    font-weight: 1000;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.flex1{
+    display: flex;
+    gap: 16px;
+}
+
+.hide{
+    display: none;
+}
+
+.gradiant{
+    background: linear-gradient(to bottom right, green, rgb(255, 255, 255));
+    background-clip: padding-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.musiclogo{
+    color: palevioletred;
+}
